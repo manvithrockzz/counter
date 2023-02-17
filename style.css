@@ -1,0 +1,67 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: rgb(255, 132, 100);
+  background: linear-gradient(
+    90deg,
+    rgba(275, 133, 101, 4) 0%,
+    rgba(259, 125, 175, 4) 100%
+  );
+}
+.maincontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.card {
+  background: white;
+  padding: 26px;
+  border-radius: 11px;
+  text-align: center;
+}
+.card h1 {
+  margin-bottom: 16px;
+  font-size: 71px;
+}
+.card-btn button {
+  border-radius: 6px;
+  color: #262626;
+  padding: 11px 36px;
+  border: 0;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 6px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+button#decrement {
+  background: #f6e58d;
+}
+button#decrement:hover {
+  background: orange;
+  color:white;
+}
+button#reset {
+  background: #f3a683;
+}
+button#reset:hover {
+  background: #ea2027;
+  color:white;
+}
+button#increment {
+  background: #c4e538;
+}
+button#increment:hover {
+  background: green;
+  color: white;
+}
